@@ -6,7 +6,7 @@ body {
   height: 100vh;
   overflow: hidden;
 }
-.cena {
+.container {
   width: 500px;
   height: 500px;
   position: relative;
@@ -18,7 +18,7 @@ body {
     #5b7983 100%
   );
 }
-.cena img {
+.container img {
   position: absolute;
 }
 .cidade {
@@ -35,7 +35,7 @@ body {
 }
 
 .nuvem {
-  animation: nuvem-move 22s linear forwards infinite;
+  animation: nuvem-move 15s linear forwards infinite;
 }
 .nuvem-2 {
   width: 250px;
@@ -64,7 +64,7 @@ body {
 
 @keyframes nuvem-move {
   to {
-    transform: translate(40px);
+    transform: translate(40px, 20px);
   }
 }
 
